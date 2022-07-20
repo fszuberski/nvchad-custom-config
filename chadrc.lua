@@ -1,10 +1,7 @@
 local pluginOverrides = require "custom.plugins.overrides"
 local M = {}
 
-M.ui = {
-   theme = "tokyonight",
-   transparency = false,
-}
+M.ui = require "custom.ui"
 
 M.options = {
    user = function ()
