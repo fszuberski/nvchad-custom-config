@@ -1,3 +1,6 @@
 return {
-   ['nvim-treesitter/playground'] = {}
+   ['nvim-telescope/telescope-fzf-native.nvim'] = {
+      run = 'make'
+   },
+   ['nvim-treesitter/playground'] = {},
 }

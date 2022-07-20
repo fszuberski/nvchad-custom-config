@@ -19,6 +19,7 @@ M.plugins = {
    },
    override = {
       ["nvim-treesitter/nvim-treesitter"] = pluginOverrides.treesitter,
+      ["nvim-telescope/telescope.nvim"] = pluginOverrides.telescope,
       ["kyazdani42/nvim-tree.lua"] = pluginOverrides.nvimtree,
    },
    remove = {
