@@ -50,11 +50,11 @@ M.telescope = {
    n = {
       ["<C-f>"] = { "<cmd> Telescope current_buffer_fuzzy_find fuzzy=false case_mode=respect_case <CR>", "  current buffer find exact" },
       ["<C-S-f>"] = { "<cmd> Telescope live_grep fuzzy=false case_mode=respect_case <CR>", "   live grep" },
-      ["<leader>fg"] = { "<cmd> Telescope live_grep fuzzy=false case_mode=respect_case <CR>", "   live grep exact" },
+      ["<leader>fa"] = { "<cmd> Telescope live_grep fuzzy=false case_mode=respect_case <CR>", "   live grep exact" },
       ["<leader>fz"] = { "<cmd> Telescope live_grep <CR>", "   live grep fuzzy" },
       ["<leader>fs"] = { "<cmd> Telescope grep_string <CR>", "   grep string" },
       ["<leader>ff"] = { "<cmd> Telescope find_files <CR>", "  find files" },
-      ["<leader>fa"] = { "<cmd> Telescope find_files follow=true no_ignore=true hidden=true <CR>", "  find all" },
+      ["<leader>fv"] = { "<cmd> Telescope find_files follow=true no_ignore=true hidden=true <CR>", "  find all" },
       ["<leader>fb"] = { "<cmd> Telescope buffers <CR>", "  find buffers" },
       ["<leader>fh"] = { "<cmd> Telescope help_tags <CR>", "  help page" },
       ["<leader>fo"] = { "<cmd> Telescope oldfiles <CR>", "   find oldfiles" },
