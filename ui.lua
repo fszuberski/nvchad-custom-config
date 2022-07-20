@@ -27,5 +27,6 @@ return {
    hl_add = {
       TSType = { fg = "teal" },
       TSRepeat = { fg = "purple" },
+      TSField = { fg = "white", bold = true },
    }
 }
