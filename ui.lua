@@ -23,9 +23,15 @@ return {
       DiffChange = { fg = "blue" },
       DiffDelete = { fg = "red" },
       DiffChangeDelete = { fg = "red" },
+
+      NvimTreeFolderName = { fg = "blue", bold = true },
+      NvimTreeGitDirty = { fg = "blue" },
+      NvimTreeGitNew = { fg = "green" },
+      NvimTreeGitDeleted = { fg = "red" },
    },
    hl_add = {
       TSType = { fg = "teal" },
+      TSTypeBuiltin = { fg = "teal" },
       TSRepeat = { fg = "purple" },
       TSField = { fg = "white", bold = true },
    }
