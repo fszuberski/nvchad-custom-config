@@ -3,4 +3,5 @@ return {
       run = 'make'
    },
    ['nvim-treesitter/playground'] = {},
+   ['rmagatti/auto-session'] = {}
 }
