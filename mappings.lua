@@ -10,7 +10,20 @@ M.general = {
    },
    n = {
       ["<leader>w"] = { "<cmd> wa <CR>", "﬚  save all files" },
-   }
+      ["<leader>p"] = { '"_dP', "delete to void register and paste" },
+
+      -- window manipulation
+      ["<leader>wv"] = { "<C-w>v", "split vertically"},
+      ["<leader>ws"] = { "<C-w>s", "split horizontally"},
+
+      ["<leader>ww"] = { "<C-w>w", "change split"},
+      ["<leader>wh"] = { "<C-w>h", " window left" },
+      ["<leader>wl"] = { "<C-w>l", " window right" },
+      ["<leader>wj"] = { "<C-w>j", " window down" },
+      ["<leader>wk"] = { "<C-w>k", " window up" },
+
+
+   },
 }
 
 M.lspconfig = {
@@ -49,7 +62,6 @@ M.nvimtree = {
 M.telescope = {
    n = {
       ["<C-f>"] = { "<cmd> Telescope current_buffer_fuzzy_find fuzzy=false case_mode=respect_case <CR>", "  current buffer find exact" },
-      ["<C-S-f>"] = { "<cmd> Telescope live_grep fuzzy=false case_mode=respect_case <CR>", "   live grep" },
       ["<leader>fa"] = { "<cmd> Telescope live_grep fuzzy=false case_mode=respect_case <CR>", "   live grep exact" },
       ["<leader>fz"] = { "<cmd> Telescope live_grep <CR>", "   live grep fuzzy" },
       ["<leader>fs"] = { "<cmd> Telescope grep_string <CR>", "   grep string" },
@@ -59,6 +71,12 @@ M.telescope = {
       ["<leader>fh"] = { "<cmd> Telescope help_tags <CR>", "  help page" },
       ["<leader>fo"] = { "<cmd> Telescope oldfiles <CR>", "   find oldfiles" },
       ["<leader>tk"] = { "<cmd> Telescope keymaps <CR>", "   show keys" },
+   },
+}
+
+M.tabufline = {
+   n = {
+      ["<leader>wq"] = { "<cmd> Tbufclose <CR>", "close current buffer"},
    },
 }
 
